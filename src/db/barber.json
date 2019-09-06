@@ -1,0 +1,207 @@
+{
+    "barberos" : [
+        {
+            "name": "juan manuel",
+            "id":"01"
+        },
+        {
+            "name": "Ricardo",
+            "id":"02"
+        },
+        {
+            "name": "Sebastian",
+            "id":"03"
+        },
+        {
+            "name": "Daniel",
+            "id":"04"
+        },
+        {
+            "name": "Franc",
+            "id":"05"
+        }
+        ,
+        {
+            "name": "Franc",
+            "id":"06"
+        }
+    ],
+    "clientes" : [
+        {
+            "name": "enrique",
+            "id":"01"
+        },
+        {
+            "name": "manuel",
+            "id":"02"
+        }
+    ],
+    
+        "BarberShops" : [
+        {
+            "title": "FrekiStyle",
+            "admin": "David",
+            "description": "servicio variosm",
+            "telefono": "3045489109",
+            "_id": "01",
+            "servicios": [
+                {
+                    "nameService":"Corte de barba",
+                    "_id":"01"
+                }
+               
+            ]	         
+            
+        },
+        {
+            "title": "Peluquera",
+            "admin": "Manuel",
+            "description": "lorem ipsum lorem yo no se que vendo prrro lorem ipsum",
+            "telefono": "3045489109",
+            "_id": "02",
+            "servicios": [
+                {
+                    "nameService":"MASCARILLA CAPILAR:",
+                    "_id":"01"
+                },
+                {
+                    "nameService":"Corte de cabello",
+                    "_id":"02"
+                },
+                {
+                    "nameService":"SPA",
+                    "_id":"03"
+                }
+            ]
+        },
+        {
+            "title": "style",
+            "admin": "Enrique",
+            "description": "ayuwasodoaskdosakdosaipsum",
+            "telefono": "3045489109",
+            "_id": "03",
+            "servicios": [
+                {
+                    "nameService":"ALISADO DE CABELLO:",
+                    "_id":"01"
+                },
+                {
+                    "nameService":"BARBA EXPRESS:",
+                    "_id":"02"
+                },
+                {
+                    "nameService":"SPA",
+                    "_id":"03"
+                }
+            ]
+        },
+        {
+            "title": "NextStyle",
+            "admin": "Juan",
+            "description": "nojodam",
+            "telefono": "3045489109",
+            "_id": "04",
+            "servicios": [
+                {
+                    "nameService":"BARBA",
+                    "_id":"01"
+                },
+                {
+                    "nameService":"COLOR PARA EL CABELLO",
+                    "_id":"02"
+                },
+                {
+                    "nameService":"SPA",
+                    "_id":"03"
+                }
+            ]
+        }
+    ],
+    "citas" : [
+        {
+            "namebarber": "juan manuel",
+            "cliente": "Juan",
+            "barbershop": "NExrsty",
+            "id":"01",
+            "fecha": "el lunes",
+            "turno": "001",
+            "estado": false
+        },
+        {
+            "namebarber": "Ricardo",
+            "cliente": "Pedro",
+            "barbershop": "NExrsty",
+            "id":"02",
+            "fecha": "el lunes",
+            "turno": "002",
+            "estado": true
+        },
+        {
+            "namebarber": "Sebastian",
+            "cliente": "Enrique",
+            "barbershop": "NExrsty",
+            "id":"03",
+            "fecha": "el lunes",
+            "turno": "003",
+            "estado": false
+        },
+        {
+            "namebarber": "Daniel",
+            "cliente": "Juan",
+            "barbershop": "NExrsty",
+            "id":"04",
+            "fecha": "el lunes",
+            "turno": "004",
+            "estado": true
+        },
+        {
+            "namebarber": "Franc",
+            "cliente": "Maria",
+            "barbershop": "NExrsty",
+            "id":"05",
+            "fecha": "el lunes",
+            "turno": "005",
+            "estado": false
+        }
+        ,
+        {
+            "namebarber": "Franc",
+            "cliente": "paula",
+            "barbershop": "NExrsty",
+            "id":"06",
+            "fecha": "el lunes",
+            "turno": "1006",
+            "estado": false
+        },
+        {
+            "namebarber": "juan manuel",
+            "cliente": "Juan",
+            "barbershop": "NExrsty",
+            "id":"7",
+            "fecha": "el lunes",
+            "turno": "001",
+            "estado": true
+        },
+        {
+            "namebarber": "juan manuel",
+            "cliente": "Juan",
+            "barbershop": "NExrsty",
+            "id":"8",
+            "fecha": "el lunes",
+            "turno": "001",
+            "estado": true
+        },
+        {
+            "namebarber": "juan manuel",
+            "cliente": "Juan",
+            "barbershop": "NExrsty",
+            "id":"9",
+            "fecha": "el lunes",
+            "turno": "00",
+            "estado": false
+            
+        }
+    ]
+
+
+}
